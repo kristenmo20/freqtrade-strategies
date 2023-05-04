@@ -1,0 +1,31 @@
+{
+  "strategy_name": "PatternRecognition",
+  "params": {
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": 0.032,
+      "trailing_stop_positive_offset": 0.084,
+      "trailing_only_offset_is_reached": true
+    },
+    "max_open_trades": {
+      "max_open_trades": 3
+    },
+    "buy": {
+      "buy_pr1": "CDLHIGHWAVE",
+      "buy_vol1": -100
+    },
+    "sell": {},
+    "protection": {},
+    "roi": {
+      "0": 0.238,
+      "4612": 0.189,
+      "12212": 0.051,
+      "42597": 0
+    },
+    "stoploss": {
+      "stoploss": -0.311
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-05-04 03:29:31.346079+00:00"
+}

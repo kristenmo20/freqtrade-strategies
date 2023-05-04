@@ -1,0 +1,32 @@
+{
+  "strategy_name": "KeltnerOptimized",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 3
+    },
+    "buy": {
+      "atrs_range": 1,
+      "rsi_buy_hline": 61,
+      "window_range": 16
+    },
+    "sell": {},
+    "protection": {},
+    "roi": {
+      "0": 0.6759999999999999,
+      "9800": 0.39299999999999996,
+      "24767": 0.11,
+      "29343": 0
+    },
+    "stoploss": {
+      "stoploss": -0.337
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-04-11 03:53:11.809468+00:00"
+}

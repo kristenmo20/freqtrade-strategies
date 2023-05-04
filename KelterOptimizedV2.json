@@ -1,0 +1,34 @@
+{
+  "strategy_name": "KeltnerOptimizedV2",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": 0.01,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 6
+    },
+    "buy": {
+      "atrs_range": 6,
+      "macd_buy_hline": -2.511,
+      "rsi_buy_hline": 42,
+      "stoch_buy_hline": 19,
+      "window_range": 43
+    },
+    "sell": {},
+    "protection": {},
+    "roi": {
+      "0": 0.766,
+      "10701": 0.362,
+      "27693": 0.146,
+      "48577": 0
+    },
+    "stoploss": {
+      "stoploss": -0.315
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2023-04-11 05:11:54.342264+00:00"
+}
